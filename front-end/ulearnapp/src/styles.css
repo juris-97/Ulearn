@@ -1,0 +1,115 @@
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css';
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body{
+  background: #eeeeee;
+}
+
+.page-container{
+margin-top:40px;
+}
+
+figure.user-card {
+  background: #ffffff;
+  padding: 20px;
+  border-top: 3px solid #f2f2f2;
+  border: 1px solid #e1e5f1;
+  text-align: center;
+}
+
+figure.user-card.red {
+  border-top: 3px solid #fc6d4c;
+}
+
+figure.user-card.green {
+  border-top: 3px solid #3ecfac;
+}
+
+figure.user-card.blue {
+  border-top: 3px solid #5a99ee;
+}
+
+figure.user-card.yellow {
+  border-top: 3px solid #ffc139;
+}
+
+figure.user-card.pink {
+  border-top: 3px solid #ff9fd0;
+}
+
+figure.user-card.purple {
+  border-top: 3px solid #904e95;
+}
+
+figure.user-card.fb {
+  border-top: 3px solid #3B5998;
+}
+
+figure.user-card.gp {
+  border-top: 3px solid #E02F2F;
+}
+
+figure.user-card .profile {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  max-width: 72px;
+  margin-bottom: 20px;
+}
+
+figure.user-card h5 {
+  margin: 0 0 15px 0;
+}
+
+figure.user-card h6 {
+  margin: 0 0 15px 0;
+  color: #8796af;
+  font-size: 14px;
+}
+
+figure.user-card p {
+  margin: 0;
+  padding: 0 0 15px 0;
+  color: #8796af;
+  line-height: 150%;
+  font-size: .85rem;
+  font-family: 'Lato', sans-serif;
+}
+
+figure.user-card ul.info {
+  margin: 0;
+  padding: 0 0 15px 0;
+  line-height: 150%;
+  font-size: .85rem;
+  display: inline;
+}
+
+figure.user-card ul.info li {
+  padding: .2rem 0;
+  display: inline;
+}
+
+figure.user-card ul.info li a {
+  color: #5a99ee;
+}
+
+figure.user-card ul.info li a i {
+  min-width: 36px;
+  float: left;
+  font-size: 1rem;
+}
+
+figure.user-card ul.contacts li:last-child a {
+  color: #ff5000;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+#sortLabel{
+  margin: auto;
+  padding: 0 10px 0 7px;
+  color: #ffffff;
+}
